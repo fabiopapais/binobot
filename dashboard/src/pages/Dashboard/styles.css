@@ -1,0 +1,36 @@
+div#content-dashboard {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 500px;
+  width: 90%;
+  padding: 45px;
+  border-radius: 10px;
+  left: 50vw;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+div#dashboard-data {
+  margin: 10px 0 10px 0;
+  width: 100%;
+}
+
+div#dashboard-data #evaluations{
+  margin-top: 20px;
+}
+
+div#dashboard-data #evaluations div.evaluation {
+  border: 2px solid #05c4a4;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+div#dashboard-data #evaluations div.evaluation .comment {
+  margin-bottom: 5px;
+}
+div#dashboard-data #evaluations div.evaluation .numbers {
+  font-size: 14px;
+}
