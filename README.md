@@ -31,7 +31,7 @@ Projeto construído durante a [HACKATHON CCR](http://www.grupoccr.com.br/hackath
 </p>
 
 <h2 align='center'>
-      <img title="Bot para Whatsapp"  alt="Bot para Whatsapp" src="./whatsapp.jpeg" width="50%">
+      <img title="Bot para Whatsapp"  alt="Bot para Whatsapp" src="./whatsapp.jpeg" width="30%">
 </h2>
 <h2 align='center'>
       <img title="Dashboard para Empresas"  alt="Dashboard" src="./dashboard.jpeg" width="80%">
