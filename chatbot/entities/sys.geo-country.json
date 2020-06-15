@@ -1,0 +1,9 @@
+{
+  "id": "cb59dc59-97ac-470d-b553-182805b83171",
+  "name": "sys.geo-country",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

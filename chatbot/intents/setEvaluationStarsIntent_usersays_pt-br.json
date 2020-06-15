@@ -1,0 +1,86 @@
+[
+  {
+    "id": "581e9745-1413-43d1-9606-89147b576b6b",
+    "data": [
+      {
+        "text": "5",
+        "alias": "stars",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9992c906-5f1f-4371-92bb-3bda4a34c8ad",
+    "data": [
+      {
+        "text": "4",
+        "alias": "stars",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "adc7d017-de93-45ef-afc5-a6ef3ef99ea6",
+    "data": [
+      {
+        "text": "3",
+        "alias": "stars",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0da92213-a220-463a-95c3-b8bf1b9c2cab",
+    "data": [
+      {
+        "text": "2",
+        "alias": "stars",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9892aec1-ad57-46dc-86ef-39b926708527",
+    "data": [
+      {
+        "text": "1",
+        "alias": "stars",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "21290175-03ea-411d-bbc7-7009499d89b5",
+    "data": [
+      {
+        "text": "0",
+        "alias": "stars",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

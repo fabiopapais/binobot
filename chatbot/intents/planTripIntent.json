@@ -1,0 +1,40 @@
+{
+  "id": "54a1890d-303f-498a-9a56-f508ffb4c9a7",
+  "name": "planTripIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "planTripIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": [
+            "Certo, onde começa sua viagem?\n\n(Exemplo: Distribuidora Bino ou Rua Bino, 569, Bairro, Cidade, UF)",
+            "Beleza, onde começa sua viagem?\n\n(Exemplo: Distribuidora Bino ou Rua Bino, 569, Bairro, Cidade, UF)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

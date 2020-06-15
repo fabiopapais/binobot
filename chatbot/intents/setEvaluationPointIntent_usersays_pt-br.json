@@ -1,0 +1,44 @@
+[
+  {
+    "id": "25190be8-2069-406e-b450-2717ac275e79",
+    "data": [
+      {
+        "text": "posto de parada BR132",
+        "alias": "local",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "889dfdd4-75f5-4d89-99ad-f10c547c273c",
+    "data": [
+      {
+        "text": "posto de parada ccr br001",
+        "alias": "local",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "63d553ad-8e70-4d68-a1de-310f536677d9",
+    "data": [
+      {
+        "text": "posto shell BR005",
+        "alias": "local",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

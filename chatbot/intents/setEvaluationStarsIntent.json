@@ -1,0 +1,79 @@
+{
+  "id": "a03c9538-ede2-44d6-9295-24cc25e1d15c",
+  "parentId": "9bbf0002-cee5-4d9c-b713-8a21241b587d",
+  "rootParentId": "eaa68a8d-7344-4bae-996f-975d52f13c04",
+  "name": "setEvaluationStarsIntent",
+  "auto": true,
+  "contexts": [
+    "setEvaluationPointIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "evaluationIntent.evaluationIntent-custom.setEvaluationPointIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "setEvaluationStarsIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a4168c17-f5d8-4ff2-9900-a9845c4d5a7a",
+          "required": true,
+          "dataType": "@stars",
+          "name": "stars",
+          "value": "$stars",
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Não entendi muito bem. De 0 a 5, como foi a experiência neste ponto?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e36fbcd1-307c-4fdc-ad94-f5590d09b9f8",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "local",
+          "value": "#setEvaluationPointIntent-followup.local",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Tudo bem, você deu $stars ⭐ para $local ."
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "E sobre o preço? De 0 (barato) a 5 (caro)?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

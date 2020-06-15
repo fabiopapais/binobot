@@ -1,0 +1,66 @@
+{
+  "id": "d99364d3-e4a4-4ec5-9f2d-e92b6acc0cae",
+  "parentId": "1216273a-f365-436e-a508-0b3260adb3b7",
+  "rootParentId": "eaa68a8d-7344-4bae-996f-975d52f13c04",
+  "name": "setEvaluationCommentIntent",
+  "auto": true,
+  "contexts": [
+    "setEvaluationPriceIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "evaluationIntent.evaluationIntent-custom.setEvaluationPointIntent-custom.setEvaluationStarsIntent-custom.setEvaluationPriceIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9ef6f485-cf54-4b69-bf03-de59e13799e7",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "local",
+          "value": "#setEvaluationPriceIntent-followup.local",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "831dd64a-203c-449a-8620-f068fe0b9d14",
+          "required": true,
+          "dataType": "@stars",
+          "name": "stars",
+          "value": "#setEvaluationStarsIntent-followup.stars",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e1925835-69d4-4077-9cce-70abbb2293c4",
+          "required": true,
+          "dataType": "@stars",
+          "name": "price",
+          "value": "#setEvaluationPriceIntent-followup.price",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

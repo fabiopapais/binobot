@@ -1,0 +1,75 @@
+{
+  "id": "c039aefd-9a43-4ca1-81b9-2389c9904b58",
+  "parentId": "f529ce7b-c526-4b4a-8979-165bb67fdc28",
+  "rootParentId": "f529ce7b-c526-4b4a-8979-165bb67fdc28",
+  "name": "setNameIntent",
+  "auto": true,
+  "contexts": [
+    "welcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcomeIntent.welcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "setNameIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ed6caa7d-3312-4a44-929d-e7fcccb526d3",
+          "required": true,
+          "dataType": "@sys.person",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Desculpe, eu não entendi. Qual é o seu nome?"
+            },
+            {
+              "lang": "pt-br",
+              "value": "Foi mal, não entendi. Qual é o seu nome?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": [
+            "Beleza, vou te chamar de $name.",
+            "Ok, então vou te chamar de $name.",
+            "Entendi, você quer que eu te chame de $name."
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Quando quiser planejar uma viagem é só me falar \"planejar viagem\"."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

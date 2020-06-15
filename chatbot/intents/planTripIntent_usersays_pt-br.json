@@ -1,0 +1,104 @@
+[
+  {
+    "id": "bc8fed70-584c-422e-91f5-eb54e3ea3dcf",
+    "data": [
+      {
+        "text": "viagem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02762f7b-4aa8-4970-ae7d-65ff1507e4a7",
+    "data": [
+      {
+        "text": "viajar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9a8062c3-eab7-428b-adb7-d88519179eb3",
+    "data": [
+      {
+        "text": "criar viagem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "419af6de-1b7c-4fae-9150-a41367aa0f13",
+    "data": [
+      {
+        "text": "planejar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b1194bc4-b107-4579-8e90-644ad0cc4f10",
+    "data": [
+      {
+        "text": "vamos planejar ",
+        "userDefined": false
+      },
+      {
+        "text": "uma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " viagem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9e085ab3-b32d-463e-96fa-875f32730e4a",
+    "data": [
+      {
+        "text": "planejar viagem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b8214ff-ab76-45c4-8e48-9d8e99d1721d",
+    "data": [
+      {
+        "text": "quero planejar ",
+        "userDefined": false
+      },
+      {
+        "text": "uma",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " viagem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

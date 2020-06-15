@@ -1,0 +1,48 @@
+{
+  "id": "9395a930-3932-48e9-b8ce-1856626d5f7d",
+  "name": "reportIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "reportIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c54c9369-57b1-4074-ae83-4580ec78bd44",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "report",
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Fique calmo, estou aqui para ajudar. Por favor, me conte o que aconteceu."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

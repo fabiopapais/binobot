@@ -1,0 +1,86 @@
+[
+  {
+    "id": "f1adf987-13a7-49a7-8cc4-56bcd9cdf161",
+    "data": [
+      {
+        "text": "5",
+        "alias": "price",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6e2d5f1-edd1-47c1-bba7-97d8447954eb",
+    "data": [
+      {
+        "text": "4",
+        "alias": "price",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e4dff4b2-0b92-4731-a818-b8e30789d0c7",
+    "data": [
+      {
+        "text": "3",
+        "alias": "price",
+        "meta": "@stars",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09412b6c-ba78-4db7-ace6-0eeb5d8899a8",
+    "data": [
+      {
+        "text": "2",
+        "alias": "price",
+        "meta": "@stars",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc19e74c-48a3-4765-a9f6-fbeaab1dc3d2",
+    "data": [
+      {
+        "text": "1",
+        "alias": "price",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "91a26ac8-ce81-4e1b-a639-72f55d57f95e",
+    "data": [
+      {
+        "text": "0",
+        "alias": "price",
+        "meta": "@stars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

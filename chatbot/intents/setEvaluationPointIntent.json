@@ -1,0 +1,61 @@
+{
+  "id": "9bbf0002-cee5-4d9c-b713-8a21241b587d",
+  "parentId": "eaa68a8d-7344-4bae-996f-975d52f13c04",
+  "rootParentId": "eaa68a8d-7344-4bae-996f-975d52f13c04",
+  "name": "setEvaluationPointIntent",
+  "auto": true,
+  "contexts": [
+    "evaluationIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "evaluationIntent.evaluationIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "setEvaluationPointIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2cfb838b-5a2d-4011-807d-dd8e24ba1415",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "local",
+          "value": "$local",
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Não entendi. Qual é o local de parada?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "De 0 a 5, como foi a experiência em $local ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

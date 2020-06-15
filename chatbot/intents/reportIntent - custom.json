@@ -1,0 +1,36 @@
+{
+  "id": "b1f5a0d7-35d2-4ad0-9e67-04da2ad61d6c",
+  "parentId": "9395a930-3932-48e9-b8ce-1856626d5f7d",
+  "rootParentId": "9395a930-3932-48e9-b8ce-1856626d5f7d",
+  "name": "reportIntent - custom",
+  "auto": true,
+  "contexts": [
+    "reportIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "reportIntent.reportIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

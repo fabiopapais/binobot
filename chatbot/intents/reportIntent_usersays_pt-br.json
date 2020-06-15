@@ -1,0 +1,211 @@
+[
+  {
+    "id": "db46015b-3ff9-4069-81d1-ba54f12af89c",
+    "data": [
+      {
+        "text": "polícia",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e6da3894-43c8-4d2d-a565-7f0001e401db",
+    "data": [
+      {
+        "text": "roubo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c5fa60dc-9d92-4562-92dd-268d19a051b8",
+    "data": [
+      {
+        "text": "assalto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d13df95-9445-48de-a53f-98b74c8816f2",
+    "data": [
+      {
+        "text": "suborno",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "585b70d7-bfdf-41cb-9904-faf8b55ba85d",
+    "data": [
+      {
+        "text": "fui enganado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b8784bb-d978-4495-8cc4-d385f820e97a",
+    "data": [
+      {
+        "text": "cilada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f1f57389-1d6e-46e7-8bb6-3e45296240b0",
+    "data": [
+      {
+        "text": "socorro",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b62b351-4d8b-412b-86e7-61d4ec339806",
+    "data": [
+      {
+        "text": "me ",
+        "userDefined": false
+      },
+      {
+        "text": "ajuda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e43e33e4-3c75-48c5-b699-08b89c04ed0b",
+    "data": [
+      {
+        "text": "ajuda",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4581a80e-ae56-436b-8af0-6a5d38e3029b",
+    "data": [
+      {
+        "text": "foi ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " golpe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "699e679e-0f92-4f82-a077-7bd291231d78",
+    "data": [
+      {
+        "text": "fui vítima",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4b4a67a2-1966-40f5-a3d1-e742cbfc0f26",
+    "data": [
+      {
+        "text": "me assaltaram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c57b2f9d-96a8-4065-a4cb-65a45779ca07",
+    "data": [
+      {
+        "text": "fui roubado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6a562a67-3175-4353-ac73-05cfd20c5f94",
+    "data": [
+      {
+        "text": "fui assaltado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "256b3bbc-4875-43d0-ae5f-3ac501fa73a0",
+    "data": [
+      {
+        "text": "reportar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "68e7bea2-dc25-403b-8b0e-20cc0f3ef810",
+    "data": [
+      {
+        "text": "quero reportar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

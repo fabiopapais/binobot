@@ -1,0 +1,9 @@
+{
+  "id": "94968897-4ec0-4315-8f64-ac501a83d6ee",
+  "name": "stars",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

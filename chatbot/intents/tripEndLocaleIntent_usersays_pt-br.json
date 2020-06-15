@@ -1,0 +1,86 @@
+[
+  {
+    "id": "7b80889e-637a-4bf3-8dc2-a6e02fc590fb",
+    "data": [
+      {
+        "text": "Padaria bom pão",
+        "alias": "endPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a4ea2d96-1c51-491c-8d4d-4b9793b20efc",
+    "data": [
+      {
+        "text": "Mercadinho preço legal",
+        "alias": "endPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae1a599f-2cbd-4e94-a6dd-b8407a73f8df",
+    "data": [
+      {
+        "text": "Hipermercado Big",
+        "alias": "endPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fec1d451-6b4d-401a-bf2f-9c2b0165dc94",
+    "data": [
+      {
+        "text": "Distribuidora Bino",
+        "alias": "endPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a74b931a-402c-4cc3-903e-80a683cbfc9d",
+    "data": [
+      {
+        "text": "Rua Guilherme Guemballa, 260, Jardim América, Rio do Sul, SC",
+        "alias": "endPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "82ad50ee-96ba-4ddb-aad4-9051ecbddbe5",
+    "data": [
+      {
+        "text": "Avenida Governador Agamenon Magalhães, 1874, Santo Amaro, Recife, PE",
+        "alias": "endPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

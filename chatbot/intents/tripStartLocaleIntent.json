@@ -1,0 +1,61 @@
+{
+  "id": "b59a12ba-388b-468f-8aad-d1fa3b0c0081",
+  "parentId": "54a1890d-303f-498a-9a56-f508ffb4c9a7",
+  "rootParentId": "54a1890d-303f-498a-9a56-f508ffb4c9a7",
+  "name": "tripStartLocaleIntent",
+  "auto": true,
+  "contexts": [
+    "planTripIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "planTripIntent.planStartLocaleIntent",
+      "affectedContexts": [
+        {
+          "name": "tripStartLocaleIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f804b416-5510-4e21-ac72-7d18b281a734",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "startPoint",
+          "value": "$startPoint",
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Desculpe, eu não entendi. Qual é o seu ponto de partida?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Certo, você vai partir de $startPoint . Aonde você vai?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

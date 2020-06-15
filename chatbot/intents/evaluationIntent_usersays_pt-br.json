@@ -1,0 +1,77 @@
+[
+  {
+    "id": "28a61449-858a-4dd2-9c5d-e592f0db0334",
+    "data": [
+      {
+        "text": "dar nota pra ",
+        "userDefined": false
+      },
+      {
+        "text": "ponto de parada",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5bde737b-2d77-45d3-ba8e-7016a12eb339",
+    "data": [
+      {
+        "text": "avaliar local de ",
+        "userDefined": false
+      },
+      {
+        "text": "parada",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "906fee22-1d41-4652-873a-6c59cea52a76",
+    "data": [
+      {
+        "text": "avaliar ponto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b1ff1c3a-3d52-4d83-8d7a-890e8b2487e1",
+    "data": [
+      {
+        "text": "avaliar ",
+        "userDefined": false
+      },
+      {
+        "text": "ponto de parada",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38889be6-bf9b-42f5-8c24-8fdc2b93fda9",
+    "data": [
+      {
+        "text": "avaliar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "a901e2d5-ad19-4888-89aa-c64094c2557b",
+    "data": [
+      {
+        "text": "Avenida Governador Agamenon Magalhães, 1874, Santo Amaro, Recife, PE",
+        "alias": "startPoint",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0b954e46-7d36-4683-8ed6-329bd97fde8b",
+    "data": [
+      {
+        "text": "Rua Guilherme Guemballa, 260, Jardim América, Rio do Sul, SC",
+        "alias": "startPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d0a0d341-367f-458b-a2b3-d1545fc92db9",
+    "data": [
+      {
+        "text": "Distribuidora Bino",
+        "alias": "startPoint",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1aeae096-fb46-410f-a139-4f8214138f99",
+    "data": [
+      {
+        "text": "Hipermercado Big",
+        "alias": "startPoint",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "86cd10eb-cec3-435c-87da-703ad23bcf3d",
+    "data": [
+      {
+        "text": "Mercadinho preço legal",
+        "alias": "startPoint",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3864b1a8-e1ed-4700-aa57-138cc47d8c7e",
+    "data": [
+      {
+        "text": "Padaria bom pão",
+        "alias": "startPoint",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

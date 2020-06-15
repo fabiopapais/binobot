@@ -1,0 +1,48 @@
+{
+  "id": "c5a7b513-67c9-4b62-bef7-bd9705ba04f8",
+  "parentId": "54c1f9d1-e908-4484-b28a-e37d4c5f0257",
+  "rootParentId": "54a1890d-303f-498a-9a56-f508ffb4c9a7",
+  "name": "tripBookLocaleIntent",
+  "auto": true,
+  "contexts": [
+    "tripEndLocaleIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "planTripIntent.tripStartLocaleIntent.tripEndLocaleIntent.tripEndLocaleIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d459b312-84ce-4ea2-af5e-a03e3bf7548d",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "ids",
+          "value": "$ids",
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Não entendi. Por favor, me envie os ID\u0027s dos locais de parada que você quer reservar. Exemplo: (1, 2, 3, 4, 5)."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

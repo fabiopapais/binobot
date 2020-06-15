@@ -1,0 +1,41 @@
+[
+  {
+    "id": "2fb03b8b-3185-496b-af52-ed15360b1fb7",
+    "data": [
+      {
+        "text": "Precisei colocar 100 litros de Diesel pra poder parar, ABSURDO!!!!!!!",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "85709a6c-dd6b-4208-8f92-a040ad23c65f",
+    "data": [
+      {
+        "text": "Não gostei, tudo muito caro",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e8d65813-4ecb-467f-afea-72ab5c021457",
+    "data": [
+      {
+        "text": "Gostei muito, preço justo.",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

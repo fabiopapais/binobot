@@ -1,0 +1,73 @@
+{
+  "id": "1216273a-f365-436e-a508-0b3260adb3b7",
+  "parentId": "a03c9538-ede2-44d6-9295-24cc25e1d15c",
+  "rootParentId": "eaa68a8d-7344-4bae-996f-975d52f13c04",
+  "name": "setEvaluationPriceIntent",
+  "auto": true,
+  "contexts": [
+    "setEvaluationStarsIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "evaluationIntent.evaluationIntent-custom.setEvaluationPointIntent-custom.setEvaluationStarsIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "setEvaluationPriceIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "44dd10a2-e644-44fc-b3c1-d5cb8cf58398",
+          "required": true,
+          "dataType": "@stars",
+          "name": "price",
+          "value": "$price",
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Ops, não entendi. Me fale um número de 0 (barato) a 5 (caro)."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d39d01b3-ee62-4e81-940c-58febc69b5fa",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "local",
+          "value": "#setEvaluationStarsIntent-followup.local",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "pt-br",
+          "condition": "",
+          "speech": "Entendi, agora me conte um pouco sobre sua experiência."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

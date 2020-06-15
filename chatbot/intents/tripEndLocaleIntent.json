@@ -1,0 +1,60 @@
+{
+  "id": "54c1f9d1-e908-4484-b28a-e37d4c5f0257",
+  "parentId": "b59a12ba-388b-468f-8aad-d1fa3b0c0081",
+  "rootParentId": "54a1890d-303f-498a-9a56-f508ffb4c9a7",
+  "name": "tripEndLocaleIntent",
+  "auto": true,
+  "contexts": [
+    "tripStartLocaleIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "planTripIntent.tripStartLocaleIntent.tripEndLocaleIntent",
+      "affectedContexts": [
+        {
+          "name": "tripEndLocaleIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "32c4e2da-28b5-4615-a6d0-8aa1fac56845",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "initialPoint",
+          "value": "#tripStartLocaleIntent-followup.startPoint",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "82943601-99fb-42f8-88e6-f3911bd2fed5",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "endPoint",
+          "value": "$endPoint",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
